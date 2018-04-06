@@ -281,7 +281,7 @@ format-prefix-foreground = ${colors.foreground}
 [module/power]
 type = custom/script
 exec = echo " "
-click-left = shutdown -P now
+click-left = systemctl suspend
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
 
